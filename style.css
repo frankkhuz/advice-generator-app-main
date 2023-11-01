@@ -48,7 +48,7 @@ p{
     margin-bottom: 1rem;
     position: relative;
 }
-.container picture ::before{
+/* .container picture ::before{
     content: "";
     width: 40%;
     height: 1px;
@@ -67,7 +67,7 @@ left: 0;
 background-color:hsl(193, 38%, 86%) ;
 bottom: 1.7rem;
 position: relative;
-display: block;
+display: block; */
 }
 .container button{
     background-color: hsl(150, 100%, 66%);
@@ -92,6 +92,9 @@ display: block;
 }
 .attribution a:hover{
     color:hsl(218, 82%, 20%) ;
+}
+@media screen {
+    
 }
 
 /* .advice{
