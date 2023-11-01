@@ -5,8 +5,8 @@ const data = await res.json()
 console.log(data)
 
 
-document.getElementById('').innerHTML = ` Advice # ${data.slip.id}`
-document.getElementById('').innerHTML = `"${data.slip.advice}"`
+document.getElementById('title').innerHTML = ` Advice # ${data.slip.id}`
+document.getElementById('text').innerHTML = `"${data.slip.advice}"`
 
 }
 fetchAdvice()
